@@ -22,6 +22,7 @@ git commit -a -m"Mensagem"                = comita as alterações selecionadas
 git reset                                 = cancela todas as alterações e todos os commits feitos
 git reset --hard "origin/main"            = força com que todos os commits sejam cancelados (perde tudo que nao foi push)
 git checkout "origem/arquivo"             = remove todas as alterações - não envia nada para o commit do arquivo indicado
+git show                                  = exibe informações do arquivo
 --------------------------------------------------------------------------------------------------------------------------------------
 git pull                                  = Puxa todas as atualizações do projeto
 git push                                  = envia todas as atualizações dentro do commit
