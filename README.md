@@ -71,5 +71,14 @@ git diff <arquivo> <arquivo>              = verificar diferenças entre duas bra
 git submodule add <repo>                  = criar novo submodulo
 git submodule                             = verificar os submodulos existentes
 --------------------------------------------------------------------------------------------------------------------------------------
+git rebase <branch> <private_branch> -i   = tras alguns commites para a branch se poluir com commits ruins
+pick                                      = envia commit
+squash                                    = descarta commit
+(para navegar no console)    
+i                                         = habilita o modo de edição
+esc                                       = muda para o modo de visualização / salvamento
+:x! (escrito no console apos o esc)       = salva as alterações
+/#                                        = linhas comentadas com '#' (somente #) nao serão levadas para a refatoração
+--------------------------------------------------------------------------------------------------------------------------------------
 .gitignore                                = arquivo usado para evitar o envio de outros arquivos
 --------------------------------------------------------------------------------------------------------------------------------------
