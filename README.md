@@ -66,7 +66,10 @@ git remote -v                             = verificar o repositorio trakeado
 git remote rm origin                      = remove o provedor de repositorio do origin 
 git remote add origin <url>               = incluir novo repositorio 
 --------------------------------------------------------------------------------------------------------------------------------------
-git submodule add <repo>
+git diff <arquivo> <arquivo>              = verificar diferenças entre duas branchs
+--------------------------------------------------------------------------------------------------------------------------------------
+git submodule add <repo>                  = criar novo submodulo
+git submodule                             = verificar os submodulos existentes
 --------------------------------------------------------------------------------------------------------------------------------------
 .gitignore                                = arquivo usado para evitar o envio de outros arquivos
 --------------------------------------------------------------------------------------------------------------------------------------
